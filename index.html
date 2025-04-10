@@ -1,13 +1,1 @@
-n example of the whole thing would look something like this:
-
- <a onclick="myAudioFunction('A');">
-     <img src="ad_image.png">
- </a>
- <script>
-     var aAudio = new Audio('chicken-jockey.mp3');
-     function myAudioFunction(letter) {
-         if(letter == 'a') {
-             aAudio.play();
-         }
-     }
- </script>
+<img src="ad_image.png" onclick="document.getElementById('chicken-jockey.mp3').play();">
